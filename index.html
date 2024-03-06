@@ -2,47 +2,92 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>fef0214 | jogos</title>
+    <title> FE jogos | Projeto Senai</title> 
 
-    <!-- estilo css -->
+    <!-- Estilo CSS (para puxar o css do projeto) -->
     <link rel="stylesheet" href="css/style.css">
 
-    <!-- validador css -->
+    <!-- Validador CSS -->
     <link rel="stylesheet" href="validador/aos/aos.css">
     <link rel="stylesheet" href="validador/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="validador/bootstrap-icons/bootstrap-icons.css">
-    <link rel="stylesheet" href="validador/boxicons/css/boxicons.min.css">
-    <link rel="stylesheet" href="validador/glightbox/css/glightbox.min.css">
-    <link rel="stylesheet" href="validador/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="validador/boxicons/css/boxicons.min.css">   
+    <link rel="stylesheet" href="validador/glightbox/css/glightbox.min.css">   
+    <link rel="stylesheet" href="validador/swiper/swiper-bundle.min.css">   
 
-    <!-- google fonts -->
+    <!-- Google Fonts usado no site -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
 
 </head>
+
 <body>
-    <!--criar botao mobile
-    <i></i> i = icone -->
+    <!-- Comando para comentario-->
+    <!-- -->
+    <!-- Criar botão mobile <i> </i> I = Icone -->
     <header id="header"> 
         <div class="d-flex flex-column"> 
-            <div class="profile"> <!-- div = caixa -->
-                <img src="img/logo.jpeg" alt="logo da empresa" class="img-fluid rounded-circle">
-                <h1 class="text-light"> 
-                    <a href="index.html" > FE jogos </a> 
-                 </h1>
-
-                 <div class="social-links mt3 text-center">
-
-                 </div>
+            <div class="profile"> <!-- div = Caixa -->
+                <img src="img/logo.jpeg" alt="" class="img-fluid rounded-circle">
+                <h1 class="text-ligth"> <a href="index.html"> FE jogos </a> </h1>
                 
+                <div class="social-links mt-3 text-center"> 
 
-            </div> <!-- fim div profile -->
-        </div>
-    </header>
+                <a href="https://www.instagram.com/" target="_blank"> <i class='bx bxl-instagram'></i> </a>                    
+                <a href="https://www.facebook.com/?locale=pt_BR" target="_blank"> <i class='bx bxl-facebook-circle'></i> </a>               
+                <a href="https://www.twitch.tv/" target="_blank"> <i class='bx bxl-twitch'></i> </a>
+                <a href="https://www.youtube.com/" target="_blank"> <i class='bx bxl-youtube'></i> </a>
+
+                </div> <!-- Fim social-links-->
+            </div>  <!-- Fim div Profile-->
+
+                <nav id="navbar" class="nav-menu navbar">
+
+                    <ul>
+                        </li> <a href="#hero" class="nav-link scrollto active"> <i class="bx bx-home"> </i> <span>Home</span> </a> </li>
+                        </li> <a href="#about" class="nav-link scrollto"> <i class="bx bx-user"> </i> <span>Sobre</span> </a> </li>
+                        </li> <a href="#resume" class="nav-link scrollto"> <i class="bx bx-file-blank"> </i> <span>Resumo</span> </a> </li>
+                        </li> <a href="#portfolio" class="nav-link scrollto"> <i class="bx bx-book-content"> </i> <span>Portfolio</span> </a> </li>
+                        </li> <a href="#services" class="nav-link scrollto"> <i class="bx bx-server"> </i> <span>Serviços</span> </a>  </li>  
+                        </li> <a href="#contact" class="nav-link scrollto"> <i class="bx bx-envelope"> </i> <span>Contato</span> </a>  </li>  
+                    </ul>
+                </nav> <!-- Fim NAV = Menu-->
+
+        </div> <!-- FIM div Profile -->
+
+      </header>   <!-- fim da header -->
+      <!-- seção hero -->
+    <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+        <div class="hero-container" data-aos="fade-in">
+            <h1> FE jogos </h1> <!-- hi= titulo -->
+            <p> Eu sou o fernando, desenvolvedor de jogos online, <span class="typed" data-typed-items="vamos trabalhar juntos?!"> </span> </p>
 
 
-</body>
+
+
+        </div>  <!-- fim div hero  container -->
+    </section>   <!-- fim seção hero -->
+
+   
+    <!-- validadores js -->
+    <script src="validador/purecounter/purecounter_vanilla.js"  ></script>
+    <script src="validador/aos/aos.js"  ></script>
+    <script src="validador/bootstrap/js/bootstrap.bundle.min.js"  ></script>
+    <script src="validador/glightbox/js/glightbox.min.js"  ></script>
+    <script src="validador/isotope-layout/isotope.pkgd.min.js"  ></script>
+    <script src="validador/swiper/swiper-bundle.min.js"  ></script>
+    <script src="validador/typed.js/typed.umd.js"  ></script>
+    <script src="validador/waypoints/noframework.waypoints.js"  ></script>
+    <script src="validador/php-email-form/validate.js"  ></script>
+
+
+     <!-- script javascript -->
+     <script src="js/main.js"> </script>
+
+
+
+</body>     
 </html>
